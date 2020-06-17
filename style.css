@@ -74,6 +74,20 @@
     left:10px;
     font-weight: bolder;
 }
+.virtualcv a:link
+{
+    color:#FFFFFF;
+}
+
+.virtualcv a:visited
+{
+    color:#FFFFFF;
+}
+
+.virtualcv a:hover 
+{
+    color:#FFFFFF;
+}
 /*All*/
 *
 {
