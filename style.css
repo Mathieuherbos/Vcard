@@ -1,0 +1,70 @@
+/*Wrapper*/
+.wrapper 
+{
+    display: grid;
+    grid-template-columns: repeat(5, 90px);
+    grid-template-rows: repeat(3, 90px);
+}
+
+/*photo*/
+.photo
+{
+    grid-column: 1;
+    grid-row: 1;
+}
+.photo img
+{
+    width: 90px;
+    height: 90px;
+}
+/*nom*/
+.nom
+{
+    grid-column: 2 / 5;
+    grid-row: 1;
+    background-color: grey;
+}
+/*mail*/
+.mail
+{
+    grid-column: 5;
+    grid-row: 1;
+    background-color:black;
+}
+.mail img
+{
+    width: 90px;
+    height: 90px;
+}
+/*main*/
+.main
+{
+    grid-column: 1 / 5;
+    grid-row: 2 / 4;
+    background-color:lightsteelblue;
+}
+/*linkedin*/
+.linkd
+{
+    grid-column: 5;
+    grid-row: 2;
+    background-color:darkslategray;
+}
+.linkd img
+{
+    width: 90px;
+    height: 90px;
+}
+/*CV*/
+.virtualcv
+{
+    grid-column: 5;
+    grid-row: 3;
+    background-color:rgb(40, 40, 56);
+}
+/*All*/
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
